@@ -1,0 +1,33 @@
+/* apply flex to the parent of list items */
+.nav-list {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row; /* row, row-reverse, column, column-reverse */
+    /* main axis and cross axis */
+    /* main-axis of a flex container is parallel to flex-direction */
+    /* cross-axis of a flex container is perpendicular to the main axis */
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    /* flex-direction + flex-wrap = flex-flow */
+    /* justify-content : how to align content on the main axis */
+    justify-content: space-evenly;
+    align-items: baseline
+}
+
+.rectangle {
+    /* width: 300px; */
+    /* height: 200px; */
+}
+
+.orange{
+    background-color: orange;
+}
+.skyblue {
+    background-color: skyblue;
+}
+

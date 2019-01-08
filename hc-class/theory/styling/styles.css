@@ -1,4 +1,96 @@
 h1 {
-    color: #A0DED0;
-    background-color: papayawhip;
+    color: #21AFFC;
+    background-color: #FFCB29;
+    opacity:0.8;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Bahnschrift Light";
+    
+}
+
+#paragraph {
+    background-color: #21AFFC;
+    opacity: 0.5;
+}
+
+.bluecolor { 
+    color:  #21AFFC
+}
+
+.linethrough {
+    text-decoration: line-through;
+    color: #FFCB29;
+}
+
+img {
+    opacity:0.8;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#box {
+    font-family: "Bahnschrift Light";
+    text-align: center; 
+}
+
+ul {
+    font-family: "Bahnschrift Light";
+    list-style-type: circle;
+}
+
+ol {
+    font-family: "Bahnschrift Light";
+    list-style-type:lower-alpha;
+}
+
+table, th, td {
+    font-family: "Bahnschrift Light";
+    border: 1px black solid;
+}
+
+table {
+    font-family: "Bahnschrift Light";
+    border-collapse: collapse;
+    width: 50%;
+    background-color: #FFCB29;
+}
+
+th, td {
+    font-family: "Bahnschrift Light";
+    padding: 20px;
+}
+
+.link, .link:visited {
+    font-family: "Bahnschrift Light";
+    text-decoration: underline;
+    color: #21AFFC;
+    transition: all 1s;
+}
+
+.link:hover {
+    color: #FFCB29;
+    font-size: 20px;
+}
+
+.margin {
+    margin: 50px;
+}
+
+.button, .button:visited{
+    font-family: "Bahnschrift Light";
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #21AFFC;
+    border: 3px #21AFFC solid;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    background-color: #21AFFC;
+    color: white;
 }

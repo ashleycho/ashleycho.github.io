@@ -1,0 +1,76 @@
+h1 {
+    color: #21AFFC;
+    background-color: #FFCB29;
+    opacity:0.8;
+    font-size: 40px;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Bahnschrift Light";
+}
+
+th {
+    font-size: 18px;
+    font-family: "Bahnschrift Light";
+    color: #FFCB29;
+}
+
+td {
+    font-size: 15px;
+    font-family: "Bahnschrift Light";
+}
+
+ul {
+    font-family: "Bahnschrift Light";
+    list-style-type: circle;
+}
+
+ol {
+    font-family: "Bahnschrift Light";
+    list-style-type:lower-alpha;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "Bahnschrift Light";
+    color: #FFCB29;
+}
+
+.images {
+    opacity:0.8;
+}
+
+.img {
+    opacity:0.8;
+}
+
+.nav {
+    background-color: #21AFFC;
+    opacity: 0.8;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 1150px;
+    margin: 2 auto;
+}
+
+.nav-item {
+    margin: 5px;
+}
+
+.nav-link, .nav-link:visited {
+    font-size: 16px;
+    text-decoration:none;
+    color: #FFCB29;
+    transition: all 0.5s;
+}
+
+.nav-link:hover {
+    color: white;
+}
+

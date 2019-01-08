@@ -1,0 +1,21 @@
+h1 {
+    color: #ffcb29;
+    background-color: #21AFFC;
+    opacity: 0.8;
+    font-size: 35px;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Bahnschrift Light";
+}
+
+img {
+    opacity: 0.8;
+}
+
+a {
+    color: #ffcb29;
+    font-size: 16px;
+    font-family: "Bahnschrift Light";
+}
