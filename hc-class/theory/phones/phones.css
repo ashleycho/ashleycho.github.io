@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bahnschrift Light";
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-color {
+    background-color: #9fa8da
+}
+
+.nav {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header {
+    font-size: 25px;
+    font-weight: bold;
+    color: white
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    width:40%;
+    justify-content: space-between
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+}
+
+.nav-link:hover {
+    color: #7986cb; 
+    border-bottom: 1px solid #7986cb;
+}
+
+.main {
+    padding-top: 100px;
+    height: 600px;
+    background-image: url(images/iphone8.jpg)
+}
+
+.main-header {
+    font-size: 75px;
+    text-align: center;
+    color: #7986cb;
+}
+
+.main-description {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #7986cb;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-item {
+    border: #9fa8da 3px solid;
+    width: 45%;
+    padding: 20px;
+    margin: 20px 0px;
+    display:flex;
+    justify-content:center;
+    border-radius: 10px;
+}
+
+.card-image {
+    height:200px;
+}
+
+.card-description {
+    text-align: center;
+}
