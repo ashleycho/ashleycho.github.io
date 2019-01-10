@@ -74,3 +74,33 @@ h3 {
     color: white;
 }
 
+.images {
+    border: #21AFFC 5px solid;
+    width: 20%;
+    padding: 8px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content:center;
+    border-radius: 10px;
+    transition: 0.3s;
+    flex-direction: row;
+    height: 350px;
+}
+
+.images:hover {
+    border: #FFCB29 8px solid;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bad-dudes {
+    height: 300px;
+    width: 225px;
+    justify-content: center;
+    align-self: center;
+}
+
